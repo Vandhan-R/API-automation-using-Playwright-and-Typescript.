@@ -41,7 +41,7 @@ expect(isvalid).toBeTruthy()
 
 })
 
-test.only('Schema validation2',async({request})=>{
+test('Schema validation2',async({request})=>{
 
 const response=await request.get('https://jsonplaceholder.typicode.com/posts/1')
 const jsonresponse=await response.json()

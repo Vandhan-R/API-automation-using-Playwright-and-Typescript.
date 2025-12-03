@@ -15,7 +15,7 @@ expect(jsonresponse).toHaveProperty('depositpaid')
 
 })
 
-test.only('sending request using query parameter',async ({request})=>{
+test('sending request using query parameter',async ({request})=>{
 
 const FastName='Josh'
 const LastName='Allen'
