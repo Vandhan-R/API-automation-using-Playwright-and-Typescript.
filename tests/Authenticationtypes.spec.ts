@@ -29,7 +29,7 @@ test('no authorization', async({request})=>{
     }
     })
 
-  expect(basicrespon.ok()).toBeTruthy()
+  //expect(basicrespon.ok()).toBeTruthy()
   expect(basicrespon.status()).toBe(200)
 })
 
