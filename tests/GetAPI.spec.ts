@@ -2,8 +2,11 @@ import {test,expect} from '@playwright/test'
 
 test('sending request using path parameter',async ({request})=>{
 
-const pathid='123'
+const pathid='1476'
 const response=await request.get(`/booking/${pathid}`) // sending dynamic id
+
+ // expect(response.status(), 'Booking ID does not exist').toBe(200);
+
 const jsonresponse= await response.json()
 console.log(jsonresponse)
 

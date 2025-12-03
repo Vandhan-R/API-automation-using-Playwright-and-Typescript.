@@ -19,7 +19,7 @@ test('no authorization', async({request})=>{
 
 
    //basic authentication
-   test('basic authorization', async({request})=>
+  /* test.only('basic authorization', async({request})=>
     {
  const basicrespon=await request.get('https://httpbin.org/basic-auth/user/pass',
     {
@@ -32,6 +32,25 @@ test('no authorization', async({request})=>{
   //expect(basicrespon.ok()).toBeTruthy()
   expect(basicrespon.status()).toBe(200)
 })
+*/
+
+test('basic authorization', async ({ request }) => {
+  const credentials = Buffer.from("postman:password").toString("base64");
+
+  const response = await request.get(
+    "https://postman-echo.com/basic-auth",
+    {
+      headers: {
+        Authorization: `Basic ${credentials}`,
+      },
+    }
+  );
+
+  expect(response.status(), 'Basic auth failed').toBe(200);
+
+  const json = await response.json();
+  expect(json.authenticated).toBe(true);
+});
 
 
 test("API key", async ({request})=>{
