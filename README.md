@@ -1,0 +1,1 @@
+[![Playwright Tests](https://github.com/Vandhan-R/API-automation-using-Playwright-and-Typescript./actions/workflows/playwright.yml/badge.svg)](https://github.com/Vandhan-R/API-automation-using-Playwright-and-Typescript./actions/workflows/playwright.yml)
