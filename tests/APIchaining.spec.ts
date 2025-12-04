@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test'
 import fs from 'fs'
 
-test('@sanity creating a booking', async({request})=>{
+test('creating a booking @sanity', async({request})=>{
 
 // creating a bookind id
     const jsondata='Test Data/POSTreq.json' //    // getting the body data from jason file
