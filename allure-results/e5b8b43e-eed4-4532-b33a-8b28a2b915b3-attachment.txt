@@ -1,0 +1,11 @@
+{
+  bookingid: 4250,
+  booking: {
+    firstname: 'Corine',
+    lastname: 'Gibson',
+    totalprice: 116,
+    depositpaid: true,
+    bookingdates: { checkin: '2025-12-04', checkout: '2025-12-09' },
+    additionalneeds: 'atavus'
+  }
+}

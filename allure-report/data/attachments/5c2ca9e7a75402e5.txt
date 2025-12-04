@@ -1,0 +1,11 @@
+{
+  bookingid: 4597,
+  booking: {
+    firstname: 'Isaac',
+    lastname: 'Lockman',
+    totalprice: 198,
+    depositpaid: true,
+    bookingdates: { checkin: '2025-12-04', checkout: '2025-12-09' },
+    additionalneeds: 'candidus'
+  }
+}

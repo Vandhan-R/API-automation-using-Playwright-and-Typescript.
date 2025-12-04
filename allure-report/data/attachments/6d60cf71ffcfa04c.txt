@@ -1,0 +1,30 @@
+{
+  bookingid: 414,
+  booking: {
+    firstname: 'Jim',
+    lastname: 'Brown',
+    totalprice: 111,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'Breakfast'
+  }
+}
+booking is==> 414
+{
+  firstname: 'Jim',
+  lastname: 'Brown',
+  totalprice: 111,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'Breakfast'
+}
+token is ==> f872e314009e58b
+updated data ==> {
+  firstname: 'Jimmy',
+  lastname: 'Josh',
+  totalprice: 112,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'Updated!'
+}
+Created

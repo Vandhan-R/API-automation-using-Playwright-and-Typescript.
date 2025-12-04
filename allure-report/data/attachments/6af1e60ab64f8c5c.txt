@@ -1,0 +1,11 @@
+{
+  bookingid: 4433,
+  booking: {
+    firstname: 'Rosalinda',
+    lastname: 'Bins',
+    totalprice: 165,
+    depositpaid: true,
+    bookingdates: { checkin: '2025-12-04', checkout: '2025-12-09' },
+    additionalneeds: 'vespillo'
+  }
+}

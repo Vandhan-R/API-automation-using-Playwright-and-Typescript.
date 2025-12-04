@@ -7,7 +7,7 @@
 import {test,expect} from '@playwright/test'
 import fs from 'fs'
 
-test('Creating a booking', async({request})=>{
+test('@master Creating a booking', async({request})=>{
 
     const jsondata= 'Test Data/POSTreq.json'
     const postjson= JSON.parse(fs.readFileSync(jsondata,'utf-8'))

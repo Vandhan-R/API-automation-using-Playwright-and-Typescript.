@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:master":"playwright test --grep @master",
+    "test:sanity":"playwright test --grep @sanity"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,6 +16,7 @@
     "@types/luxon": "^3.7.1",
     "@types/node": "^24.10.1",
     "ajv": "^8.17.1",
+    "allure-playwright": "^3.4.3",
     "playwright": "^1.57.0"
   },
   "dependencies": {

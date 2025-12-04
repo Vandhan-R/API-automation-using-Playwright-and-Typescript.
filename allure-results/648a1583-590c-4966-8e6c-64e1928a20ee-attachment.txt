@@ -1,0 +1,10 @@
+bookingid==> 4419
+token ===> 3d8657f93a12ec4
+updated response {
+  firstname: 'Jimmy',
+  lastname: 'Josh',
+  totalprice: 112,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'Updated!'
+}

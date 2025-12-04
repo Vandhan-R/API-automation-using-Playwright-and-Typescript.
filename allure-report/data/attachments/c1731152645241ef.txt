@@ -1,0 +1,37 @@
+{
+  coord: { lon: -121.9358, lat: 37.7021 },
+  weather: [
+    {
+      id: 803,
+      main: 'Clouds',
+      description: 'broken clouds',
+      icon: '04d'
+    }
+  ],
+  base: 'stations',
+  main: {
+    temp: 285.49,
+    feels_like: 284.45,
+    temp_min: 283.33,
+    temp_max: 286.17,
+    pressure: 1023,
+    humidity: 64,
+    sea_level: 1023,
+    grnd_level: 997
+  },
+  visibility: 10000,
+  wind: { speed: 2.37, deg: 42, gust: 3.05 },
+  clouds: { all: 70 },
+  dt: 1764882045,
+  sys: {
+    type: 2,
+    id: 2100526,
+    country: 'US',
+    sunrise: 1764860848,
+    sunset: 1764895747
+  },
+  timezone: -28800,
+  id: 5344157,
+  name: 'Dublin',
+  cod: 200
+}
