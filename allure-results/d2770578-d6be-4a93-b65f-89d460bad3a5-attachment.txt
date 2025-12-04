@@ -1,0 +1,11 @@
+{
+  bookingid: 1553,
+  booking: {
+    firstname: 'Emily',
+    lastname: 'Connelly',
+    totalprice: 192,
+    depositpaid: false,
+    bookingdates: { checkin: '2025-12-04', checkout: '2025-12-09' },
+    additionalneeds: 'talis'
+  }
+}

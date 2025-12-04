@@ -1,0 +1,30 @@
+{
+  coord: { lon: -121.9358, lat: 37.7021 },
+  weather: [ { id: 800, main: 'Clear', description: 'clear sky', icon: '01d' } ],
+  base: 'stations',
+  main: {
+    temp: 285.76,
+    feels_like: 284.7,
+    temp_min: 284.4,
+    temp_max: 287.22,
+    pressure: 1022,
+    humidity: 62,
+    sea_level: 1022,
+    grnd_level: 997
+  },
+  visibility: 10000,
+  wind: { speed: 4.12, deg: 40 },
+  clouds: { all: 0 },
+  dt: 1764889944,
+  sys: {
+    type: 2,
+    id: 2100526,
+    country: 'US',
+    sunrise: 1764860848,
+    sunset: 1764895747
+  },
+  timezone: -28800,
+  id: 5344157,
+  name: 'Dublin',
+  cod: 200
+}
